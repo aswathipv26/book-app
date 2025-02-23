@@ -1,5 +1,6 @@
  import React from 'react';
  import './HomePage.css';
+ import { Link } from 'react-router-dom';
  
  function HomePage() {
   
@@ -10,9 +11,9 @@
           <p className="homepage-subtitle">
             Discover your next favorite book and build your personal reading list.
           </p>
-          <a href="/search" className="homepage-btn">
+          <Link href="/search" className="homepage-btn">
             Start Exploring
-          </a>
+          </Link>
         </div>
       </div>
    );
