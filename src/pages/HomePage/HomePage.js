@@ -11,7 +11,7 @@
           <p className="homepage-subtitle">
             Discover your next favorite book and build your personal reading list.
           </p>
-          <Link href="/search" className="homepage-btn">
+          <Link to="/search" className="homepage-btn">
             Start Exploring
           </Link>
         </div>

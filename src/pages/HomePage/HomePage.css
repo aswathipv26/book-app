@@ -39,11 +39,14 @@
   background-color: #b3a400;
 }
 
+
+
 @media (max-width: 768px) {
   .homepage-title {
      text-align: center;
      font-size: 30px;
   }
+
   .homepage-subtitle{
     font-size: 18px;
   }
